@@ -17,7 +17,7 @@ chapter = true
 
 ![读写分离](https://shardingsphere.apache.org/document/current/img/read-write-split/read-write-split.png)
 
-读写分离的数据节点中的数据内容是一致的，而水平分片的每个数据节点的数据内容却并不相同。将水平分片和读写分离联合使用，能够更加有效的提升系统性能。
+读写分离的数据节点中的数据内容是相同的，而水平分片的每个数据节点的数据内容却并不相同。将水平分片和读写分离联合使用，能够更加有效的提升系统性能。
 
 ## 挑战
 
